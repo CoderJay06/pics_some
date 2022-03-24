@@ -11,8 +11,8 @@ export default function App() {
       <Header />
       {/*routes here */}
       <Routes>
-        <Route exact path="/" component={Photos} />
-        <Route path="/" component={Cart} />
+        <Route exact path="/" element={<Photos />} />
+        <Route path="/" element={<Cart />} />
       </Routes>
     </div>
   );
